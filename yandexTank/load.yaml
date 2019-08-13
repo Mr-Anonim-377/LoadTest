@@ -1,0 +1,12 @@
+phantom:
+  writelog: proto_warning
+  address: 95.216.245.37:443
+  phantom_http_entity: 30M
+  ssl: true
+  load_profile:
+    load_type: rps
+    schedule: const(50, 30)
+  ammofile: ammo.txt
+  ammo_type: uri
+telegraf:
+  enabled: false

@@ -1,0 +1,14 @@
+.gitignore
+.git
+.dockerignore
+
+/.vscode/
+*.txt
+*.iml
+*.log
+drivers/
+target/
+test-output/
+allure-results/
+Dockerfile
+cDockerfile.fst
